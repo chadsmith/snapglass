@@ -1,0 +1,27 @@
+extends layout
+
+block styles
+  style.
+    img {
+      border: 0;
+      max-width: 100%;
+    }
+
+block content
+  h1 Snapglass
+  p Sign in to share photos with random Glass users.
+  p
+    a(href='/login')
+      img(src='/sign-in.png', alt='Sign in with Google')
+  h2 Settings
+  p
+    img(src='/settings.gif', alt='Settings')
+  p Once signed in, a Snapglass card will be added to your timeline. Pause Snapglass at anytime when you no longer wish to receive random photos. Pin it to your timeline for quick access.
+  h2 Sharing
+  p
+    img(src='/sharing.gif', alt='Sharing')
+  p To share photos on Snapglass, share them with the Snapglass contact. Photos you share and receive will be added to your timeline. You can send a text reply to photos you receive.
+  h2 Support
+  p Contact 
+    a(href='https://plus.google.com/113627947261549866211', target='_blank') Chad Smith on Google+
+    |  for support.
